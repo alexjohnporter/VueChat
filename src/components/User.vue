@@ -10,7 +10,7 @@
             }
         },
         vuex: {
-            getters:{
+            getters: {
                 loggedIn: function (state) {
                     return state.user;
                 }
@@ -18,7 +18,7 @@
         },
         methods: {
             setUser: function (user) {
-                this.$store.dispatch('SET_USER', user);
+                this.$store.dispatch('SET_USER', {'username': user});
             }
         }
     }
