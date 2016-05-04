@@ -14,8 +14,7 @@
     export default {
         data() {
             return {
-                text: '',
-                baseUrl1: ''
+                text: ''
             }
         },
         vuex: {
